@@ -35,16 +35,16 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
               isFlipped: true,
               controller: _animationController,
             ),
+            Liquid(
+              isFlipped: false,
+              controller: _animationController,
+            ),
             Text(
-              'Hi Pilu',
+              'Hello World',
               style: TextStyle(
                   fontSize: 50,
                   fontWeight: FontWeight.bold,
                   color: Colors.pinkAccent),
-            ),
-            Liquid(
-              isFlipped: false,
-              controller: _animationController,
             ),
           ],
         ),
